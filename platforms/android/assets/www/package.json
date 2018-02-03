@@ -1,0 +1,42 @@
+{
+  "name": "sagateamobileapp",
+  "title": "Sagatea Mobile App",
+  "description": "The Application or The Library doing The Thing.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Ahmed/www",
+  "author": {
+    "name": "Ahmed",
+    "email": "ahmed.azawee90@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ahmed/www.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahmed/www/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Ahmed/www/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "amber-dev": "^0.10.1",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-exec": "^2.0.0",
+    "requirejs": "^2.1.15"
+  },
+  "keywords": [
+    "Amber",
+    "Smalltalk"
+  ]
+}
